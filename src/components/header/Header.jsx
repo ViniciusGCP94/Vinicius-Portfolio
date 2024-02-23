@@ -6,7 +6,7 @@ import {
   NavList,
   Navigation,
 } from "./headerStyles";
-import Logo from "../../assets/images/Banner-WebDev.png";
+import Logo from "../../assets/images/Logo-dvs.png";
 
 function Header() {
   return (

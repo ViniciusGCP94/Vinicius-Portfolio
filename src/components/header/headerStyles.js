@@ -11,7 +11,10 @@ export const HeaderWrapper = styled.div`
 `;
 
 export const LogoStyled = styled.img`
-  width: 25%;
+  width: 10%;
+  padding: 2px;
+  border: 2px solid #d9d9d9;
+  border-radius: 20px;
 `;
 
 export const Navigation = styled.nav`
