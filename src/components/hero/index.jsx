@@ -8,7 +8,7 @@ import {
   HeroWrapper,
   MainButton,
   Titles,
-} from "./hero.js";
+} from "./heroStyle.js";
 
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
