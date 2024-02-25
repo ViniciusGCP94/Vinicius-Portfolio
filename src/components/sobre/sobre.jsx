@@ -1,24 +1,77 @@
-import { SobreContainer, SobreWrapper, Technologies } from "./sobreStyles";
+import {
+  Bio,
+  BioPhrase,
+  Emoji,
+  SobreContainer,
+  SobreWrapper,
+  Technologies,
+  Technology,
+  EmojiTech,
+} from "./sobreStyles";
+
+import Analise from "../../assets/Favicon/programming.svg";
+import Frontend from "../../assets/Favicon/browser.svg";
+import Web from "../../assets/Favicon/web-ui.svg";
+import jsreact from "../../assets/Favicon/react.svg";
+import Js from "../../assets/Favicon/javascript.svg";
+import Git from "../../assets/Favicon/git.svg";
+import Html5 from "../../assets/Favicon/html.svg";
+import Css3 from "../../assets/Favicon/css.svg";
+import Nodejs from "../../assets/Favicon/node.svg";
 
 function Sobre() {
   return (
     <SobreWrapper>
       <SobreContainer>
         <h2>Sou Vinícius Pereira</h2>
-        <ul>
+        <Bio>
           {/*Colocar emoji no início de cada frase */}
-          <li>Estudante de Análise e Desenvolvimento de Sistemas</li>
-          <li>Front-End React</li>
-          <li>Escrever algo interessante aqui</li>
-        </ul>
+          <BioPhrase>
+            <Emoji src={Analise} alt="" />
+            Estudante de Análise e Desenvolvimento de Sistemas
+          </BioPhrase>
+          <BioPhrase>
+            {" "}
+            <Emoji src={Frontend} alt="" />
+            Front-End React
+          </BioPhrase>
+          <BioPhrase>
+            {" "}
+            <Emoji src={Web} alt="" />
+            Escrever algo interessante aqui
+          </BioPhrase>
+        </Bio>
         <Technologies>
           {/*Colocar svg de cada tecnologia */}
-          <li>React</li>
-          <li>Javascript</li>
-          <li>Gitflow</li>
-          <li>Html</li>
-          <li>Css</li>
-          <li>Node</li>
+          <Technology>
+            <EmojiTech src={jsreact} alt="" />
+            React
+          </Technology>
+          <Technology>
+            {" "}
+            <EmojiTech src={Js} alt="" />
+            Javascript
+          </Technology>
+          <Technology>
+            {" "}
+            <EmojiTech src={Git} alt="" />
+            Gitflow
+          </Technology>
+          <Technology>
+            {" "}
+            <EmojiTech src={Html5} alt="" />
+            Html
+          </Technology>
+          <Technology>
+            {" "}
+            <EmojiTech src={Css3} alt="" />
+            Css
+          </Technology>
+          <Technology>
+            {" "}
+            <EmojiTech src={Nodejs} alt="" />
+            Node
+          </Technology>
         </Technologies>
       </SobreContainer>
       <SobreContainer></SobreContainer>
