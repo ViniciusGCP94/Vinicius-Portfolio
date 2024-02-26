@@ -6,8 +6,7 @@ export const SobreWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
-  border: 1px solid blue;
+  background-color: #030303;
 `;
 
 export const SobreContainer = styled.div`
@@ -17,8 +16,10 @@ export const SobreContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: yellow;
-  border: 1px solid red;
+`;
+
+export const Title = styled.h2`
+  color: #d9d9d9;
 `;
 
 export const Bio = styled.ul`
@@ -27,11 +28,11 @@ export const Bio = styled.ul`
   justify-content: space-between;
   height: 180px;
   padding: 10px;
-  border: 1px solid green;
 `;
 
 export const BioPhrase = styled.p`
   font: medium 20px "JetBrains Mono", monospace;
+  color: #d9d9d9;
   display: flex;
   align-items: end;
 `;
@@ -46,11 +47,12 @@ export const Technologies = styled.div`
   display: grid;
   padding: 20px 0px;
   grid-template-columns: 1fr 1fr 1fr;
-  border: 1px solid blue;
+  border: 1px solid green;
 `;
 
 export const Technology = styled.li`
   font: 600 20px "JetBrains Mono", monospace;
+  color: #d9d9d9;
   list-style: none;
   padding: 10px;
 `;

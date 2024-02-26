@@ -7,6 +7,7 @@ import {
   Technologies,
   Technology,
   EmojiTech,
+  Title,
 } from "./sobreStyles";
 
 import Analise from "../../assets/Favicon/programming.svg";
@@ -23,7 +24,7 @@ function Sobre() {
   return (
     <SobreWrapper>
       <SobreContainer>
-        <h2>Sou Vinícius Pereira</h2>
+        <Title>Sou Vinícius Pereira</Title>
         <Bio>
           {/*Colocar emoji no início de cada frase */}
           <BioPhrase>

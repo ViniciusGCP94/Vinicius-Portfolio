@@ -25,7 +25,7 @@ function Header() {
       </Navigation>
       <div>
         {/* Botão Header*/}
-        <ButtonHeader>Botão</ButtonHeader>
+        <ButtonHeader>Fale Comigo</ButtonHeader>
       </div>
     </HeaderWrapper>
   );

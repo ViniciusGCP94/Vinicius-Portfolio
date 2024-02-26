@@ -49,7 +49,7 @@ export const NavList = styled.li`
 `;
 
 export const ButtonHeader = styled.button`
-  padding: 1px 30px;
+  padding: 5px 30px;
   font-size: 18px;
   font-weight: 600;
   font-family: "JetBrains Mono", monospace;
