@@ -1,24 +1,28 @@
 import styled from "styled-components";
 
 export const CardWrapper = styled.div`
-  width: 350px;
+  width: 400px;
   height: 500px;
-  padding: 8px;
+  padding: 10px;
   border-radius: 20px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-between;
-  background-color: grey;
+  align-items: center;
+  background-color: #030303;
 `;
 
 export const CardImage = styled.img`
   width: 100%;
-  border-radius: 20px;
+  height: 45%;
+  border: 3px solid #a7a7a7;
+  border-radius: 15px;
 `;
 
 export const CardInfo = styled.div`
   width: 100%;
-  padding: 10px;
+  height: 50%;
+  padding: 5px 10px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -26,22 +30,40 @@ export const CardInfo = styled.div`
 
 export const CardTitle = styled.h1`
   font-size: 25px;
+  color: #d9d9d9;
+  margin-bottom: 8px;
 `;
 
 export const CardText = styled.p`
   font-size: 14px;
+  color: #d9d9d9;
+  margin-bottom: 8px;
 `;
 
 export const CardTech = styled.div`
-  width: 40%;
+  width: 45%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
 `;
 
-export const Tech = styled.div`
+export const TechFirst = styled.div`
+  font-size: 20px;
+  font-weight: 500;
+  color: #f7df1e;
+`;
+
+export const TechSecond = styled.div`
   font-size: 18px;
   font-weight: 600;
-  color: blueviolet;
+  color: #678ff4;
+`;
+
+export const TechThird = styled.div`
+  font-size: 18px;
+  font-weight: 600;
+  color: #f16529;
 `;
 
 export const ButtonLinks = styled.div`
@@ -56,7 +78,12 @@ export const WebButton = styled.button`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   border-radius: 15px;
+
+  &:hover {
+    box-shadow: 6px 4px 10px #a7a7a7;
+    transition: 300ms ease;
+  }
 `;

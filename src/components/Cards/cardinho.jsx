@@ -6,7 +6,9 @@ import {
   CardText,
   CardTitle,
   CardWrapper,
-  Tech,
+  TechFirst,
+  TechSecond,
+  TechThird,
   WebButton,
 } from "./cardStyle";
 
@@ -18,17 +20,16 @@ function Card() {
     <CardWrapper>
       <CardImage src={LOL} alt="" />
       <CardInfo>
-        <CardTitle>titulo</CardTitle>
+        <CardTitle>Titulo</CardTitle>
         <CardText>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
           delectus! Eveniet recusandae delectus ea unde ex sapiente tenetur
-          dolorem obcaecati totam, molestias quae necessitatibus quibusdam
-          tempora, inventore est sed qui?
+          dolorem obcaecati totam?
         </CardText>
         <CardTech>
-          <Tech>JS</Tech>
-          <Tech>CSS</Tech>
-          <Tech>Html</Tech>
+          <TechFirst>JS</TechFirst>
+          <TechSecond>CSS</TechSecond>
+          <TechThird>HTML</TechThird>
         </CardTech>
         <ButtonLinks>
           <WebButton href="https://github.com/ViniciusGCP94">
