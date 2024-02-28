@@ -1,7 +1,7 @@
-import Header from "./components/header/header";
-import Hero from "./components/hero/index";
-import Projetos from "./components/projetos/projeto";
-import Sobre from "./components/sobre/sobre";
+import Header from "./components/header/Header";
+import Hero from "./containers/hero";
+import Projetos from "./containers/projetos/projetos";
+import Sobre from "./containers/sobre/sobre";
 
 function App() {
   return (
